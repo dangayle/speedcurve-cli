@@ -2,10 +2,6 @@ const SpeedCurve = require("../dist");
 const request = require("request-promise");
 const SPEEDCURVE_API_KEY = "abc123";
 
-const SpeedCurve = require("../dist");
-const request = require("request-promise");
-const SPEEDCURVE_API_KEY = "abc123";
-
 test("SpeedCurve.urls.create() with basic options", async () => {
   request.post.mockResolvedValueOnce({
     status: "success",
